@@ -1,16 +1,16 @@
 {
-  "name": "pure-render-decorator",
+  "name": "pure-render-exclude-functions",
   "version": "1.1.1",
-  "description": "Makes React components pure.",
+  "description": "Makes React components pure excluding functions from props.",
   "keywords": [
     "react",
     "pure",
     "render",
     "decorator"
   ],
-  "author": "Félix Girault",
+  "author": "David Dolheguy",
   "license": "MIT",
-  "repository": "felixgirault/pure-render-decorator",
+  "repository": "https://github.com/ddolheguy/pure-render-decorator",
   "main": "index.js",
   "peerDependencies": {
     "react": "^15.0.0 || ^0.14.0"

@@ -1,23 +1,16 @@
 Pure render decorator
 =====================
 
+NOTE: Special thanks for all the work by Félix Girault.  I forked this as I wanted to exclude functions from being checked in the props.
+
 An ES7 decorator to make React components "pure".
-
-[![Build Status](https://travis-ci.org/felixgirault/pure-render-decorator.svg?branch=master)](https://travis-ci.org/felixgirault/pure-render-decorator)
-
-Installation
-------------
-
-```sh
-npm install pure-render-decorator
-```
 
 Usage
 -----
 
 ```jsx
 import {Component} from 'react';
-import pureRender from 'pure-render-decorator';
+import pureRender from 'pure-render-exclude-functions';
 
 @pureRender
 export default class Test extends Component {
@@ -48,7 +41,7 @@ As decorators are simply functions, you can also use `pureRender()` without the 
 
 ```jsx
 import {Component} from 'react';
-import pureRender from 'pure-render-decorator';
+import pureRender from 'pure-render-exclude-functions';
 
 class Test extends Component {
   render() {
